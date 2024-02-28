@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="style.css">
+ <title>Basic Interface</title>
+</head>
+<body>
+
+  <div class="bg-image"></div>
+  <div class="bg-text">
+      <form action="" method="post">
+      <h1>M3 ARCADE</h1>
+  
+    <div class="container">
+      <button type="button" class="loginbutton" onclick="directtogamepage()">PLAY AS GUEST</button>
+      <button type="button"  onclick=directtologin()>LOGIN</button>
+      <button type="button" onclick="directtosignup()">SIGN UP</button>
+    </div>
+  </form>
+  
+  </div>
+<script>
+  function directtogamepage(){
+    location.href("gamepage.html")
+  }
+  function directtologin(){
+    location.href("loginpage.html")
+  }
+  function directtosignup(){
+    location.href("signuppage.html")
+  }
+</script>
+</body>
+</html>
